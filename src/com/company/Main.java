@@ -22,6 +22,22 @@ public class Main {
         rectangle3.printRectangleKind();
         System.out.println(" Фигуры равны: " + rectangle2.isTheSameRectangle(rectangle1) + ";");
 
+        System.out.println();
+
+        Rectangle.printRectanglesCount();
+
+        System.out.println();
+
+        Rectangle.printClassName(false);
+
+
+
+
+
+
+
+
+
 
     }
 }
