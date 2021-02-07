@@ -16,11 +16,11 @@ public class Main {
         rectangle2.printRectangleKind();
         System.out.println(" Фигуры равны: " + rectangle2.isTheSameRectangle(rectangle1) + ";");
 
-        Rectangle rectangle3 = new Rectangle(2, 8.8);
+        Rectangle rectangle3 = new Rectangle(2.5, 8);
         rectangle3.calculateArea();
         rectangle3.printArea();
         rectangle3.printRectangleKind();
-        System.out.println(" Фигуры равны: " + rectangle2.isTheSameRectangle(rectangle1) + ";");
+        System.out.println(" Фигуры равны: " + rectangle3.isTheSameRectangle(rectangle1) + ";");
 
         System.out.println();
 
